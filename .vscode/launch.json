@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "PA2_main",
+            "args": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch compress",
+            "request": "launch",
+            "mainClass": "PA2_main",
+            "args": ["compress", "${workspaceFolder}/tests/test.txt"]
+        },
+        {
+            "type": "java",
+            "name": "Launch decompress",
+            "request": "launch",
+            "mainClass": "PA2_main",
+            "args": ["decompress", "${workspaceFolder}/tests/test.txt", "${workspaceFolder}/output/test_out.txt"]
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch PA2_main",
+            "request": "launch",
+            "mainClass": "PA2_main",
+            "projectName": "src_6993bcd2"
+        }
+    ]
+}
